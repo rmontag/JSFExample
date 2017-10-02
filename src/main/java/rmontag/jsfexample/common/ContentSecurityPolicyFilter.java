@@ -25,7 +25,6 @@ import org.slf4j.LoggerFactory;
  * Insbesondere f�r die "alten" Microsoft Internet Explorer Versionen 10/11 und f�r iOS bzw. Safari-Browser ist es teilweise
  * noch notwendig, die entsprechenden Deprecated-Header zu setzen.
  * 
- * https://jira.airplus.net/browse/PTL-7478
  * 
  * Supported init params:
  * <ul>
@@ -47,13 +46,6 @@ import org.slf4j.LoggerFactory;
  * If no values are provided, but enabled is set to 'true', then the (strict) default value "default-src 'self';" is used. 
  * Using this default value will result in a LOT of errors regarding "inline styles" and "inline scripts"!
  * 
- * <p>
- * Copyright (c) 2016 by Lufthansa AirPlus Servicekarten GmbH.
- * All Rights Reserved.
- * 
- * @version $Revision$, $$ 
- * 
- * @author $Author$
  */
 public class ContentSecurityPolicyFilter implements Filter {
 

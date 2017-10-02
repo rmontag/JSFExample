@@ -49,7 +49,7 @@
 		</init-param>
 		<init-param>
 			<param-name>contentSecurityPolicy</param-name>
-			<param-value>frame-ancestors 'self' *.airplus.com; default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; frame-src *; style-src 'self' 'unsafe-inline'; img-src 'self' data:;</param-value>
+			<param-value>frame-ancestors 'self' *.com; default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; frame-src *; style-src 'self' 'unsafe-inline'; img-src 'self' data:;</param-value>
 		</init-param>
 		<init-param>
 			<param-name>contentSecurityPolicyReportOnlyEnabled</param-name>
@@ -57,7 +57,7 @@
 		</init-param>
 		<init-param>
 			<param-name>contentSecurityPolicyReportOnly</param-name>
-			<param-value>frame-ancestors 'self' *.airplus.com; default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; frame-src *; style-src 'self' 'unsafe-inline'; img-src 'self' data:;</param-value>
+			<param-value>frame-ancestors 'self' *.com; default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; frame-src *; style-src 'self' 'unsafe-inline'; img-src 'self' data:;</param-value>
 		</init-param>
 		<init-param>
 			<param-name>headerXcontentSecurityPolicyEnabled</param-name>
